@@ -1,7 +1,7 @@
 # @ejc-ui/tokens
 
-## 0.0.1
+## 0.1.0
 
-### Patch Changes
+### Minor Changes
 
 - fork from pugialli-ui
