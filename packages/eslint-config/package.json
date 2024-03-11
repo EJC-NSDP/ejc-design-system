@@ -1,0 +1,12 @@
+{
+  "name": "@ejc-ui/eslint-config",
+  "author": "pugialli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "eslint": "^8.57.0"
+  }
+}
