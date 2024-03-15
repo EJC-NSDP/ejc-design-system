@@ -6,7 +6,7 @@ import {
   TooltipContentProps,
   TooltipProvider,
   TooltipTrigger,
-} from '@pugialli-ui/react'
+} from '@ejc-ui/react'
 
 export default {
   title: 'Data display/Tooltip',

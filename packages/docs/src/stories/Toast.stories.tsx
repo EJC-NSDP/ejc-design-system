@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Button, Toast, ToastProps, ToastProvider } from '@pugialli-ui/react'
+import { Button, Toast, ToastProps, ToastProvider } from '@ejc-ui/react'
 import { useArgs, useCallback } from '@storybook/client-api'
 import { useEffect, useRef } from 'react'
 
