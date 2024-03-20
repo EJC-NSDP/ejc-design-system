@@ -11,7 +11,7 @@ export default {
       return (
         <Box
           as="label"
-          css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
+          css={{ display: 'flex', flexDirection: 'column', gap: '$2', width: '90%' }}
         >
           <Text size="sm">Input Label</Text>
           {Story()}

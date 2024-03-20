@@ -22,9 +22,9 @@ export const ToastPrimitiveProvider = styled(Toast.Provider, {})
 
 export const ToastContainer = styled(Toast.Root, {
   all: 'unset',
-  backgroundColor: '$gray800',
+  backgroundColor: '$gray300',
   borderRadius: '$md',
-  border: '2px solid $gray600',
+  border: '2px solid $gray400',
   padding: '$3 $5',
   overflow: 'hidden',
 
@@ -51,7 +51,7 @@ export const ToastContainer = styled(Toast.Root, {
 })
 
 export const ToastDescription = styled(Toast.Description, {
-  color: '$gray200',
+  color: '$gray800',
 })
 
 export const ToastHead = styled('div', {
@@ -73,7 +73,7 @@ export const ToastClose = styled(Toast.Close, {
   right: 0,
 
   cursor: 'pointer',
-  color: '$gray100',
+  color: '$gray800',
 
   '&[data-swipe="end"]': {
     animation: `${swipeOut} 100ms ease-out`,

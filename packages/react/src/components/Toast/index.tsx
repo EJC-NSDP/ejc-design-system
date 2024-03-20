@@ -8,7 +8,7 @@ import {
   ToastClose,
   ToastHead,
 } from './styles'
-import { X } from 'phosphor-react'
+import { X } from "@phosphor-icons/react";
 import { Text } from '../Text'
 
 export interface ToastProps extends ComponentProps<typeof ToastContainer> {

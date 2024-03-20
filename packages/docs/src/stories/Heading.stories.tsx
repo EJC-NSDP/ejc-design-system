@@ -1,4 +1,4 @@
-import type { StoryObj, Meta } from '@storybook/react'
+ import type { StoryObj, Meta } from '@storybook/react'
 import { Heading, HeadingProps } from '@ejc-ui/react'
 
 export default {
@@ -6,12 +6,12 @@ export default {
   component: Heading,
 
   args: {
-    size: 'md',
+    size: '2xl',
     children: 'Example title',
   },
   argTypes: {
     size: {
-      options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+      options: ['sm', 'md', 'lg', '2xl', '3xl'],
       control: {
         type: 'inline-radio',
       },
@@ -25,6 +25,7 @@ export const CustomTag: StoryObj<HeadingProps> = {
   args: {
     children: 'H1 Heading',
     as: 'h1',
+    size: '3xl',
   },
   parameters: {
     docs: {

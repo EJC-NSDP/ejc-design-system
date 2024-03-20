@@ -27,8 +27,7 @@ export const TooltipTriggerContainer = styled(Tooltip.Trigger, {})
 export const TooltipPortalContainer = styled(Tooltip.Portal, {})
 
 export const TooltipContentContainer = styled(Tooltip.Content, {
-  backgroundColor: '$gray900',
-  color: '$gray100',
+  backgroundColor: '$gray100',
   gap: '$2',
   borderRadius: '$sm',
   padding: '$1 $3',
@@ -46,5 +45,5 @@ export const TooltipContentContainer = styled(Tooltip.Content, {
 })
 
 export const TooltipArrow = styled(Tooltip.Arrow, {
-  fill: '$gray900',
+  fill: '$gray100',
 })

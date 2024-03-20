@@ -12,11 +12,11 @@ const preview: Preview = {
       },
     },
     backgrounds: {
-      default: 'dark'
+      // default: 'dark'
     },
 
     docs: {
-      theme: themes.dark,
+      // theme: themes.dark,
     }
   },
 };

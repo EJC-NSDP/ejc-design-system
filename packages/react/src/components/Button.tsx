@@ -3,12 +3,12 @@ import { styled } from '../styles'
 
 export const Button = styled('button', {
   all: 'unset',
-  borderRadius: '$sm',
+  borderRadius: '$lg',
   fontSize: '$sm',
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
-  minWidth: 120,
+  // minWidth: 120,
   boxSizing: 'border-box',
 
   display: 'flex',
@@ -23,10 +23,6 @@ export const Button = styled('button', {
     cursor: 'not-allowed',
   },
 
-  '&:focus': {
-    boxShadow: '0 0 0 2px $colors$gray100',
-  },
-
   svg: {
     width: '$4',
     height: '$4',
@@ -35,38 +31,50 @@ export const Button = styled('button', {
   variants: {
     variant: {
       primary: {
-        color: '$white',
-        background: '$ignite500',
+        color: '$gray700',
+        background: '$secondary',
+
+        '&:focus': {
+          boxShadow: '0 0 0 2px $colors$gray100',
+        },
 
         '&:not(:disabled):hover': {
-          background: '$ignite300',
+          boxShadow: '0px 1px 3px 1px rgba(0, 0, 0, 0.15)',
         },
 
         '&:disabled': {
-          background: '$gray200',
+          color: '$gray100',
+          opacity: 0.8,
         },
       },
 
       secondary: {
-        color: '$ignite300',
-        border: '2px solid $ignite500',
+        color: '$yellow300',
+        border: '2px solid $yellow300',
 
         '&:not(:disabled):hover': {
-          background: '$ignite500',
-          color: '$white',
+          background: '#7A590014',
+        },
+
+        '&:focus': {
+          background: '#7A590014',
         },
 
         '&:disabled': {
-          color: '$gray200',
-          borderColor: '$gray200',
+          color: '$gray400',
+          borderColor: '$gray400',
         },
       },
 
       tertiary: {
-        color: '$gray100',
+        color: '$yellow300',
 
         '&:not(:disabled):hover': {
-          color: '$white',
+          background: '#7A590014',
+        },
+
+        '&:focus': {
+          background: '#7A590014',
         },
 
         '&:disabled': {
